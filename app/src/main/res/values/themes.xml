@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.XetaAssignment" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+
+    <!-- Light Mode -->
+
+    <style name="SCREEN">
+        <item name="background">@color/white</item>
+    </style>
+
+    <style name="SEARCHBG">
+        <item name="background">@color/lightGrey</item>
+    </style>
+
+
+    <style name="TEXT">
+        <item name="background">@color/black</item>
+    </style>
+
+    <style name="Theme.XetaAssignment" parent="Base.Theme.XetaAssignment" />
+</resources>
